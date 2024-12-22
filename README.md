@@ -28,13 +28,21 @@ The project is designed to automate and control Tecnomatix Plant Simulation, whi
 ## Commands to Run the Project
 
 Start the XML-RPC Server in Wondows:
-  - python3 simulation_server.py
+```sh
+python3 simulation_server.py
+```
 Start  ROS Core in Docker:
-  - roscore
+```sh
+roscore
+```
 Run the Plant Simulation Node in Docker:
-  - python3 plant_simulation_node.py
+```sh
+python3 plant_simulation_node.py
+```
 Run the Plant Simulation Node with Pretrained Model:
-  - python3 plant_simulation_node2.py
+```sh
+python3 plant_simulation_node2.py
+```
 
 
 ## Methods of optimization
