@@ -49,7 +49,7 @@ Method 2 implements the Sarsa algorithm, which is an on-policy reinforcement lea
 
 ### Method 3: AI Model training
 
-Method 3 is based on training a Deep Q-Network (DQN) model to optimize vehicle routes in the Tecnomatix Plant Simulation. The model is trained using reinforcement learning algorithms, and the trained model is then applied to make optimal decisions in the simulation. Below is an image illustrating the reward and loss after training the model: ![Resultat d'entrainement](./plot_resultats.png)
+Method 3 is based on training a Deep Q-Network (DQN) model to optimize vehicle routes in the Tecnomatix Plant Simulation. The model is trained using reinforcement learning algorithms, and the trained model is then applied to make optimal decisions in the simulation. Below is an image illustrating the reward and loss after training the model: ![Resultat d'entrainement](./plot_results.png)
 
 ## Demo Video
 
