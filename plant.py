@@ -8,7 +8,7 @@ class Plant(metaclass=ABCMeta):
 
     def connection(self):
         file_name = self.get_file_name_plant()
-        server_url = "10.11.0.149:8000"  # Replace with the actual server URL
+        server_url = "server_url:8000"  # Replace with the actual server URL
         self.connect = Communication_Interface(server_url)
         return self.connect.connection(file_name)
 
