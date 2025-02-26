@@ -20,7 +20,7 @@ class Material_Handling(Plant):
         Plant.__init__(self, method)
 
     def get_file_name_plant(self):
-        return "C:/Users/fziml_g8j6n7u/Desktop/workspace/MaterialHandling.spp"
+        return "your-path/MaterialHandling.spp"
 
     def update(self, data):
         # Convert numpy.int64 to native Python int
